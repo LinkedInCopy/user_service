@@ -4,7 +4,9 @@ import com.linkedin2.user_service.config.context.UserContext;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
+@Component
 @RequiredArgsConstructor
 public class FeignUserInterceptor implements RequestInterceptor {
 
